@@ -1,3 +1,7 @@
+if "%1"=="" (
+    echo "wapi commit message we mzee?"
+    exit /b 1
+)
 git add .
-git commit -m "testing my awesome script"
+git commit -m %1 
 git push
