@@ -59,7 +59,6 @@ a {
 
 .section-header {
 	text-align: var(--section-header-align);
-	border: 2px solid red;
 }
 
 .card-category,
