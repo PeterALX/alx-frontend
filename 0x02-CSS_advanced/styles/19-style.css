@@ -344,9 +344,3 @@ a:active {
 	display: var(--nav-item-display);
 	margin: var(--nav-item-margin);
 }
-
-.nav .nav-link {
-	border: 2px solid;
-	display: block;
-	padding: 0.5rem 1rem;
-}
