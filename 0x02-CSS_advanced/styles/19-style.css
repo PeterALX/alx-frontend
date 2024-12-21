@@ -312,7 +312,6 @@ a:active {
 	text-transform: var(--section-tagline-transform);
 	font-weight: var(--font-weight-bold);
 	margin: var(--section-tagline-margin);
-	border: 2px solid thistle;
 }
 
 .container {
@@ -354,6 +353,34 @@ a:active {
 }
 
 ul.row {
-	border: 2px solid red;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
 
+.col-1-3 {
+	width: 33%;
+	float: left;
+	padding: 0.5rem;
+}
+
+.col-1-2 {
+	width: 50%;
+	float: left;
+	padding: 0.5rem;
+}
+
+.footer-copyright {
+	margin: 0;
+	font-size: var(--font-size-small);
+	color: var(--text-color);
+}
+
+.footer ul {
+	text-align: right;
+}
+
+img {
+	width: 100%;
+	height: 100%;
 }
