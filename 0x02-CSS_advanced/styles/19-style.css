@@ -312,6 +312,7 @@ a:active {
 	text-transform: var(--section-tagline-transform);
 	font-weight: var(--font-weight-bold);
 	margin: var(--section-tagline-margin);
+	border: 2px solid thistle;
 }
 
 .container {
@@ -346,4 +347,13 @@ a:active {
 	letter-spacing: var(--nav-item-letter-spacing);
 	display: var(--nav-item-display);
 	margin: var(--nav-item-margin);
+}
+
+.nav .nav-link:hover {
+	color: var(--nav-item-link-hover);
+}
+
+ul.row {
+	border: 2px solid red;
+
 }
